@@ -1,0 +1,31 @@
+O que é useState?
+
+É um hook do React que guarda informações e atualiza a tela automaticamente.
+
+Exemplo:
+
+Contador
+
+Formulário
+
+Mostrar / esconder elementos
+
+Carrinho de compras
+
+Botões dinâmicos
+import { useState } from "react"
+
+function App() {
+  const [contador, setContador] = useState(0)
+
+  return (
+    <div>
+      <h1>Contador: {contador}</h1>
+      <button onClick={() => setContador(contador + 1)}>
+        Aumentar
+      </button>
+    </div>
+  )
+}
+
+export default App
