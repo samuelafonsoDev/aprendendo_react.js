@@ -1,0 +1,10 @@
+useEffect executa código quando algo acontece.
+Usos comuns:
+
+Buscar dados de API
+Executar código ao carregar a página
+Monitorar mudanças de estado
+
+----Useefec recebe dois elementos------
+Uma função: O código que você quer executar.
+Um array de dependências ([contador]): Uma lista de variáveis que o React deve "vigiar".
